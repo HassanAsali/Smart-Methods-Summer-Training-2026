@@ -1,5 +1,11 @@
 # Task 01 - Robot Dog Mechanical Design
 
+## Design Preview
+
+![3D View](robot%20dog%203d%20view.png)
+
+![Side View](robot%20dog%20side%20view.png)
+
 ## Body and Structure
 
 This is a simple four-legged robot dog that is designed to walk and carry up to 8 kg.
