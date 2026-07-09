@@ -8,44 +8,52 @@
 
 ## Body and Structure
 
-This is a simple four-legged robot dog that is designed to walk and carry up to 8 kg.
+This robot has four legs and is designed to carry about 8 kg.
 
-The design is simple and includes a dedicated space on the top for the battery (the upper rectangle), a front camera, and a balanced leg arrangement to distribute the weight evenly between all four legs.
+The body is rectangular with a space on the top for the battery and a front camera. The legs are placed to help balance the robot while walking.
 
-## Joints and Degrees of Freedom
+## Joints
 
-Each leg has two joints: a hip joint and a knee joint. This gives the robot a total of 8 degrees of freedom.
+Each leg has two joints:
+- Hip joint
+- Knee joint
 
-## Motor Selection
+So the robot has a total of 8 degrees of freedom.
 
-Servo motors are selected because they are suitable for this simple mechanical design.
+## Motors
 
-## Initial Torque Calculation
+I chose servo motors because they are simple to use and good enough for this basic design.
 
-For the initial torque calculation, it is assumed that the robot carries a total load of 8 kg. Therefore, each leg supports approximately 2 kg.
+## Torque Calculation
 
-The force is calculated as:
+If the robot carries 8 kg, then each leg carries about 2 kg.
+
+Force:
 
 ```text
 F = m × g
-F = 2 × 9.81 = 19.62 N
+F = 2 × 9.81
+F = 19.62 N
 ```
 
-Assuming the leg length is 0.1 m:
+If the leg length is about 0.1 m:
 
 ```text
 T = F × r
-T = 19.62 × 0.1 = 1.96 N·m
+T = 19.62 × 0.1
+T = 1.96 N·m
 ```
 
-The required torque is approximately 2 N·m, so it is recommended to use a servo motor with a torque higher than 2 N·m.
+So I will need a servo motor with torque a little higher than 2 N·m.
 
-## Stability and Walking Method
+## Stability
 
-To improve stability, the battery is placed near the center of the robot so that the weight is distributed evenly.
+To improve the balance, I placed the battery near the middle of the robot so the weight is distributed better.
 
-The robot is expected to walk slowly, with each leg moving one at a time to increase stability during walking.
+## Walking
 
-## Expected Mechanical Problems
+The robot is designed to walk slowly by moving one leg at a time to keep its balance.
 
-Some mechanical problems may occur, such as high stress on the joints if the load increases, or reduced stability when moving on uneven or inclined surfaces.
+## Possible Problems
+
+Some problems may happen if the robot carries more weight than expected or walks on uneven ground. The joints may also have more stress.
