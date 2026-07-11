@@ -1,10 +1,9 @@
 # Task 01 - Image Classification using Teachable Machine
 
 ## Project Preview
+![Training Dataset](teachable-machine.png)
 
-![Training Dataset](training-dataset.png)
-
-![Prediction Result](prediction-result.png)
+![Prediction Result](prediction-output.png)
 
 The model was trained to recognize three different object classes:
 
