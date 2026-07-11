@@ -48,11 +48,7 @@ The exported files are:
 
 The Python script is very simple:
 
-First, it loads the trained model
-then it reads the labels
-after that, I give it an image to test
-the model predicts which class the image belongs to
-Finally, it shows the predicted class and the confidence score.
+First, it loads the trained model. Then it reads the labels. After that, I give it an image to test. The model predicts which class the image belongs to. Finally, it shows the predicted class and the confidence score.
 
 ---
 
