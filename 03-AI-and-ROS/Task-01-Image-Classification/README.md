@@ -1,11 +1,12 @@
 # Task 01 - Image Classification using Teachable Machine
 
 ## Project Preview
+
 ![Training Dataset](teachable-machine.png)
 
 ![Prediction Result](prediction-output.png)
 
-The model was trained to recognize three different object classes:
+The model was trained to recognize three different objects:
 
 - Mobile Phone
 - Computer Mouse
@@ -15,15 +16,17 @@ The model was trained to recognize three different object classes:
 
 ## Project Description
 
-This task uses Google's Teachable Machine to build an image classification model.
+In this task, I used Google's Teachable Machine to make an image classification model.
 
-The model was trained using three classes and exported as a TensorFlow Keras model. A Python script was then used to load the model and classify a new input image.
+I trained the model using three different classes, then exported it as a TensorFlow Keras model.
+
+After that, I used a Python script to test the model with a new image.
 
 ---
 
 ## Training Data
 
-Each class contains 23 images.
+Each class has 23 images.
 
 Classes:
 
@@ -35,9 +38,9 @@ Classes:
 
 ## Model
 
-The trained model was exported in TensorFlow → Keras format.
+The model was exported as TensorFlow Keras.
 
-Files used:
+The exported files are:
 
 - keras_model.h5
 - labels.txt
@@ -58,7 +61,7 @@ Finally, it shows the predicted class and the confidence score.
 
 ## Test Result
 
-The model was tested using an unseen image.
+I tested the model using a new image that was not used during training.
 
 Example output:
 
@@ -67,7 +70,7 @@ Predicted Class: Computer Mouse
 Confidence Score: 0.8783
 ```
 
-The model correctly identified the object.
+The model was able to recognize the object correctly.
 
 ---
 
@@ -77,9 +80,11 @@ The model correctly identified the object.
 - keras_model.h5
 - labels.txt
 - for test.jpg
+- teachable-machine.png
+- prediction-output.png
 
 ---
 
 ## Notes
 
-The model successfully classified the three trained object classes using Teachable Machine and TensorFlow Keras.
+This task helped me learn how to train a simple image classification model using Teachable Machine and test it with Python.
