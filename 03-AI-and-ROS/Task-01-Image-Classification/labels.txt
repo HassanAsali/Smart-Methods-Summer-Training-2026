@@ -1,0 +1,3 @@
+0 Mobile Phone
+1 Computer Mouse
+2 Digital Camera
