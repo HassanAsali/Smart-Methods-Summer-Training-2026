@@ -46,14 +46,17 @@ Files used:
 
 ## Python Script
 
-The Python script performs the following steps:
+The Python script is very simple.
 
-- Loads the trained model.
-- Loads the class labels.
-- Reads an input image.
-- Resizes and normalizes the image.
-- Predicts the object's class.
-- Displays the predicted class and confidence score.
+First, it loads the trained model.
+
+Then it reads the labels.
+
+After that, I give it an image to test.
+
+The model predicts which class the image belongs to.
+
+Finally, it shows the predicted class and the confidence score.
 
 ---
 
