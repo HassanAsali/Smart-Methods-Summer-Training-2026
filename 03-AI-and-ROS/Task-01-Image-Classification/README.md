@@ -16,10 +16,7 @@ The model was trained to recognize three different objects:
 
 ## Project Description
 
-In this task, I used Google's Teachable Machine to make an image classification model.
-
-I trained the model using three different classes, then exported it as a TensorFlow Keras model.
-
+In this task, I used Google's Teachable Machine to make an image classification model and I trained the model using three different classes, then exported it as a TensorFlow Keras model
 After that, I used a Python script to test the model with a new image.
 
 ---
@@ -38,7 +35,7 @@ Classes:
 
 ## Model
 
-The model was exported as TensorFlow Keras.
+The model was exported as TensorFlow Keras
 
 The exported files are:
 
@@ -49,7 +46,7 @@ The exported files are:
 
 ## Python Script
 
-The Python script is very simple.
+The Python script is very simple:
 
 First, it loads the trained model
 then it reads the labels
@@ -70,7 +67,7 @@ Predicted Class: Computer Mouse
 Confidence Score: 0.8783
 ```
 
-The model was able to recognize the object correctly.
+The model was able to recognize the object correctly
 
 ---
 
@@ -85,6 +82,6 @@ The model was able to recognize the object correctly.
 
 ---
 
-## Notes
+## In the end
 
 This task helped me learn how to train a simple image classification model using Teachable Machine and test it with Python.
