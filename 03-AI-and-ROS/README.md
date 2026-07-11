@@ -2,4 +2,6 @@
 
 This folder contains all tasks, projects, and learning materials related to Artificial Intelligence (AI) and the Robot Operating System (ROS) track.
 
-## 📂 Tasks
+## 📁 Tasks
+
+- Task 01 - Image Classification using Teachable Machine
