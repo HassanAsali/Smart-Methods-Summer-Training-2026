@@ -2,7 +2,7 @@
 
 ## Website-Preview
 
-![Website Preview](website-preview.png)
+![Website Preview](website-preview.PNG)
 
 ---
 
