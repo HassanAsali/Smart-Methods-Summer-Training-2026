@@ -1,6 +1,6 @@
 # Personal Website
 
-## Website Preview
+## Website-Preview
 
 ![Website Preview](website-preview.png)
 
