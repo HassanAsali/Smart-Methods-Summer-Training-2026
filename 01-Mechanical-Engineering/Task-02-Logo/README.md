@@ -2,7 +2,7 @@
 
 ## Preview
 
-![Logo](logo-preview.png)
+![Logo](logo-preview.PNG)
 
 ## Description
 
