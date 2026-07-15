@@ -5,4 +5,3 @@ This folder contains all tasks, projects, and learning materials related to Arti
 ## 📁 Tasks
 
 - [Task 01 - Image Classification using Teachable Machine](./Task-01-Image-Classification)
-- 
