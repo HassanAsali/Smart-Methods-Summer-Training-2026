@@ -19,4 +19,4 @@ I created a simple gear logo using Onshape. The logo has the letter H in the cen
 
 ## Onshape Link
 
-https://cad.onshape.com/documents/4d565ceda6af47064987cfe6/w/533b899075aed805eaebc816/e/106e31b284b93ecc6394a668
+[Paste your Onshape link here.](https://cad.onshape.com/documents/4d565ceda6af47064987cfe6/w/533b899075aed805eaebc816/e/106e31b284b93ecc6394a668)
