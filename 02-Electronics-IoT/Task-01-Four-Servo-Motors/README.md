@@ -21,7 +21,7 @@ All servo motors are connected to 5V and GND using the breadboard.
 
 ## Circuit
 
-![Circuit](four-servo-motors-circuit.png)
+![Circuit](four-servo-motors-circuit.PNG)
 
 ## Files
 
