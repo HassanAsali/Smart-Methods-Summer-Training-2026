@@ -43,7 +43,6 @@ The ID is created automatically, and the default status is 0.
 
 - `index.php` - Form, database connection, records table, and Toggle function.
 - `style.css` - Simple webpage styling.
-- `database.sql` - Database table structure.
 - `website-preview.png` - Screenshot of the working webpage.
 
 ## Live Website
