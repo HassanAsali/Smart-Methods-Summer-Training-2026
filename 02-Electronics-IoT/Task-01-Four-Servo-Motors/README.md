@@ -23,6 +23,11 @@ All servo motors are connected to 5V and GND using the breadboard.
 
 ![Circuit](four-servo-motors-circuit.PNG)
 
+## Tinkercad Simulation
+
+[Open the circuit in Tinkercad](https://www.tinkercad.com/things/8PQksmCPMAu-task-01-four-servo-motors/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=Q7Lq4VZXxSwCeS65cA_C6AwtxUU9Ngp1StJiq0_0hgk)
+
+
 ## Files
 
 - `task01_four_servo_motors.ino` - Arduino code
