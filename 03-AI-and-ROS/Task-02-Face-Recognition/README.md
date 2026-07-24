@@ -15,8 +15,8 @@ The program reads the image, changes it to grayscale, and uses a Haar Cascade fi
 1. I opened a new folder in VS Code and installed OpenCV.
 2. I downloaded an image with four people and added it with the code.
 3. I used the Haar Cascade file to find the faces.
-4. The code changed the image to gray and detected the faces.
-5. I added green boxes around the faces and saved the result.
+4. The code detected the faces and drew green boxes around them.
+5. I saved the final result.
 
 
 ## Files
