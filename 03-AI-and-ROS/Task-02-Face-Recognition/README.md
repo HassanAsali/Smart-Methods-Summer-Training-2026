@@ -12,15 +12,12 @@ The program reads the image, changes it to grayscale, and uses a Haar Cascade fi
 
 ## Steps
 
-1. Created a new Python environment in Visual Studio Code.
-2. Installed OpenCV.
-3. Added the test image to the project folder.
-4. Loaded the Haar Cascade face detector.
-5. Read the image using OpenCV.
-6. Converted the image to grayscale.
-7. Detected the faces in the image.
-8. Drew green rectangles around the detected faces.
-9. Saved the final result.
+1. I opened a new folder in VS Code and installed OpenCV.
+2. I downloaded an image with four people and added it with the code.
+3. I used the Haar Cascade file to find the faces.
+4. The code changed the image to gray and detected the faces.
+5. I added green boxes around the faces and saved the result.
+
 
 ## Files
 
