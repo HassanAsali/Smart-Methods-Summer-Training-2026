@@ -4,3 +4,4 @@ This folder contains all tasks, projects, and learning materials related to the 
 
 ## 📂 Tasks
 - [Task 01 - Four Servo Motors](./Task-01-Four-Servo-Motors)
+- [Task 02 - Four DC Motors with L293D](Task-02-Four-DC-Motors-with-L293D)
