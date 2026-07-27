@@ -50,9 +50,10 @@ In any project, we should use the simulation to be sure that the project is sati
 
 ## Testing
 
-I changed the activation distance from 10 cm to 15 cm. I also changed the servo angle from 90 degrees to 45 degrees.
+First, I tested the project in Tinkercad using 10 cm and 90 degrees. I also tried 15 cm with 45 degrees, and the servo moved when the object was around 12 cm. After that, I returned the code to the original values.
 
-The servo moved to 45 degrees when the object was around 12 cm away. After the test, I returned the final values to 10 cm and 90 degrees.
+When I built the real circuit, the sensor and LED worked, but the servo did not move. I checked the wiring and pin 9, then used a small code that moved only the servo between 0 and 90 degrees every second. After checking the power, jumper wires, and the servo horn, it finally started working. I also noticed that the Arduino lights became dim when the servo moved. I changed the USB cable, and it became better. Finally, I uploaded the full code again, and the sensor, servo, and LED all worked together.
+
 
 ## Files
 
