@@ -46,7 +46,7 @@ In any project, we should use the simulation to be sure that the project is sati
 
 ![Physical Project](physical-project.jpg)
 
-[Watch the project video]([https://drive.google.com/file/d/143ge_AD8klWdyWFsBzwD7R_3CXaaawVR/view?usp=sharing](https://drive.google.com/file/d/1JSqdasoI7sxzbO8sjCQsN7uzbpgmgKpo/view?usp=sharing))
+[Watch the project video](https://drive.google.com/file/d/1JSqdasoI7sxzbO8sjCQsN7uzbpgmgKpo/view?usp=sharing)
 
 ## Testing
 
