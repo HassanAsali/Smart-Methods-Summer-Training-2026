@@ -10,25 +10,25 @@ At first, the microphone was working and my voice changed into text, but the web
 
 ### Final Result
 
-After 4 hours of working, I fixed the files and the server connection, but the website received my voice and Gemini answered correctly.
+After four hours of work, I fixed the files and the server connection. The website then received my voice, and Gemini answered correctly.
 
 ![Working Voice Assistant](voice-assistant-working-after-fix.png)
 
 ## Project Description
 
-This task was to upload a voice assistant website to a server and fix the PHP connection. It uses HTML, CSS, JavaScript, and PHP, and also uses the Gemini API to generate the answers.
+This task was to upload a voice assistant website to a server and fix the PHP connection. It uses HTML, CSS, JavaScript, and PHP, and it also uses the Gemini API to generate the answers.
 
 The website is in Arabic and uses Arabic voice recognition.
 
 ## How It Works
 
-1. Press the microphone button
-2. The browser listens to my voice
-3. My voice changes into text
-4. JavaScript sends the text to the PHP file
-5. PHP sends the question to Gemini
-6. Gemini returns an answer
-7. The answer appears on the website and is read aloud
+1. Press the microphone button.
+2. The browser listens to my voice.
+3. My voice changes into text.
+4. JavaScript sends the text to the PHP file.
+5. PHP sends the question to Gemini.
+6. Gemini returns an answer.
+7. The answer appears on the website and is read aloud.
 
 ## Tools Used
 
@@ -43,14 +43,15 @@ The website is in Arabic and uses Arabic voice recognition.
 
 ## Uploading the Website
 
-I created a folder called `voice-assistant` inside the `htdocs` folder on InfinityFree, and uploaded the HTML, CSS, JavaScript, PHP, and configuration files. I also created an `api` folder for the PHP backend file.
+I created a folder called `voice-assistant` inside the `htdocs` folder on InfinityFree and uploaded the HTML, CSS, JavaScript, PHP, and configuration files. I also created an `api` folder for the PHP backend file.
 
 ## Problems and Fixes
 
 ### 1. PHP Filename Problem
 
-The original PHP file was called `chat.php`and the InfinityFree blocked the file because the word `chat` is not allowed in some filenames. It returned a `403 Forbidden` error.
-So i renamed the file to:
+The original PHP file was called `chat.php`, but InfinityFree blocked it because the word `chat` is not allowed in some filenames. It returned a `403 Forbidden` error.
+
+So I renamed the file to:
 
 ```text
 assistant.php
@@ -64,9 +65,9 @@ const BACKEND_URL = "api/assistant.php";
 
 ### 2. Server Request Problem
 
-The website was sending the request as JSON, and InfinityFree redirected the request with status `302`, then it went to a `404` page.
+The website was sending the request as JSON, and InfinityFree redirected the request with status `302`. It then went to a `404` page.
 
-So i changed the JavaScript request to normal form data:
+So I changed the JavaScript request to normal form data:
 
 ```javascript
 headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -95,13 +96,13 @@ gemini-3.5-flash-lite
 
 ### 4. Missing API Key
 
-The first uploaded `config.php` file did not contain the Gemini API key
+The first uploaded `config.php` file did not contain the Gemini API key.
 
 So I added the key to the server copy of `config.php`. I did not add the real key to GitHub for security.
 
 ### 5. JavaScript Cache
 
-After uploading `app.js`, the website was still loading the older file,
+After uploading `app.js`, the website was still loading the older file.
 
 I added a version number to the JavaScript link:
 
@@ -148,5 +149,3 @@ The real API key is only stored in the server copy.
 - [Google AI Studio](https://aistudio.google.com/)
 - [InfinityFree](https://www.infinityfree.com/)
 - [Back to Web and Mobile Tasks](../)
-├── voice-assistant-error-before-fix.png
-└── voice-assistant-working-after-fix.png
