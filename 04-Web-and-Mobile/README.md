@@ -6,3 +6,4 @@ This folder contains all tasks, projects, and learning materials related to Web 
 
 - [Task 01 - Personal Website](./Task-01-Personal-Website)
 - [Task 02 - User Status Database](Task-02-User-Status-Database)
+- [Task-03-Voice-Assistant](Task-03-Voice-Assistant)
