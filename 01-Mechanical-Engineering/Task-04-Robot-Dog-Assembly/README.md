@@ -12,79 +12,81 @@
 
 ## Project Description
 
-This task was to assemble a robot dog in Onshape and create an exploded view.
+In this task I assembled a robot dog using Onshape
 
-The robot was assembled from separate imported parts. I connected the body, cover, four servo motors, servo horns, legs, and screws.
+The files were already given but every part was separated, so I had to insert the parts and connect them together
 
-I also wrote a simple control algorithm to explain how the four servo motors can move the legs.
+After I finished the robot I made an exploded view to show the parts and where every part goes
 
-## Components
-
-The main components are:
+## Parts Used
 
 - Main body
 - Body cover
-- Four SG90 servo motors
-- Four servo horns
-- Two left legs
-- Two right legs
+- 4 SG90 servo motors
+- 4 servo horns
+- 2 left legs
+- 2 right legs
 - Cover screws
-- Servo mounting screws
+- Servo screws
 - Servo horn screws
 
-## Assembly Process
+## Assembly
 
-I started by inserting the main body and fixing it in the Assembly.
+I started with the main body and fixed it so it will not move while I work
 
-Each SG90 servo was imported as many separate parts. I used `Group` to make all the parts of each servo move together as one unit.
+The body was one part and it was easy to use, but the servo was different because every servo had many small parts
 
-I installed one servo in each corner of the body. The body cover was placed above the main body, then the four legs and servo horns were added.
+At first when I tried to move the servo some parts moved alone and the servo separated. I used `Group` for all the parts of each servo and after that it moved like one part
 
-Finally, I installed the cover screws, servo mounting screws, and servo horn screws.
+I added four servos inside the body and used `Fastened Mate` to put every servo in its corner
+
+Then I added the cover and the four legs. I used `Revolute Mate` for the legs because the legs need to rotate around the servo shaft
+
+After that I added the servo horns and all the screws
 
 ## Mates Used
 
-I used different Mates during the assembly:
+- `Group` for the parts inside each servo
+- `Fastened Mate` for the servos, cover, servo horns and screws
+- `Revolute Mate` for the four legs
 
-- `Group` was used for the separate parts of each servo.
-- `Fastened Mate` was used for the servo motors, body cover, servo horns, and screws.
-- `Revolute Mate` was used between the legs and servo shafts.
-
-The `Revolute Mate` allows every leg to rotate around its servo shaft without separating from the robot.
+I learned that one `Fastened Mate` can fix the part completely. Before that I was trying to use more Mates and the assembly was getting confusing
 
 ## Motors and Movement
 
-The robot uses four SG90 servo motors.
+The robot uses four SG90 servo motors
 
-Each servo controls one leg. The servo horn transfers the rotation from the servo shaft to the leg.
+Every servo controls one leg and the servo horn connects the servo movement to the leg
 
-The legs can move forward and backward by changing the servo angles. The movement of the four servos must be coordinated so the robot can walk without losing balance.
+The legs can rotate forward and backward. The four servos need to move in the correct order so the robot does not move all the legs at the same time and lose balance
 
 ## Simple Walking Algorithm
 
-The robot can use a simple diagonal walking sequence.
+1. Turn on the robot
 
-The front-left leg and rear-right leg move together. After they return to the ground, the front-right leg and rear-left leg move.
+2. Move all servos to the middle standing angle
 
-The walking process is:
+3. Move the front left leg and the back right leg forward
 
-1. Start the system.
-2. Move all servos to the standing position.
-3. Move the front-left and rear-right legs forward.
-4. Return both legs to the ground.
-5. Move the front-right and rear-left legs forward.
-6. Return both legs to the ground.
-7. Repeat the sequence to continue walking.
-8. Return all legs to the standing position when the stop command is received.
+4. Wait for a short time
 
+5. Return the two legs to the standing angle
+
+6. Move the front right leg and the back left leg forward
+
+7. Wait again then return them to the standing angle
+
+8. Keep repeating the same movement while the robot is walking
+
+9. When the robot stops return all the legs to the standing angle
+
+The exact servo angles can be changed after testing. Some servo directions may also need to be reversed because the servos are facing different sides
 
 ## Exploded View
 
-The exploded view was created after completing the full assembly.
+After finishing the assembly I created the exploded view
 
-The cover, screws, servo motors, servo horns, and legs were moved away from the main body.
-
-Explode lines were added to show the correct position and assembly direction of every part.
+I moved the cover, servos, legs, servo horns and screws away from the main body. I also kept the explode lines because they help to show where every part should be installed
 
 ## Onshape Link
 
