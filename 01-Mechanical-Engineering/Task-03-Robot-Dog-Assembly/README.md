@@ -4,11 +4,11 @@
 
 ### Final Assembly
 
-![Robot Dog Assembly](robot-dog-assembly.png)
+![Robot Dog Assembly](robot-dog-assembly.PNG)
 
 ### Exploded View
 
-![Robot Dog Exploded View](robot-dog-exploded-view.png)
+![Robot Dog Exploded View](robot-dog-exploded-view.PNG)
 
 ## Project Description
 
