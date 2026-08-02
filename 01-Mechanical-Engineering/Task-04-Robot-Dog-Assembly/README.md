@@ -77,35 +77,6 @@ The walking process is:
 7. Repeat the sequence to continue walking.
 8. Return all legs to the standing position when the stop command is received.
 
-## Simple Pseudocode
-
-```text
-START
-
-Set all servos to the standing angle
-
-WHILE walk command is active
-
-    Move front-left leg forward
-    Move rear-right leg forward
-    Wait for a short time
-
-    Return both legs to the standing angle
-    Wait for a short time
-
-    Move front-right leg forward
-    Move rear-left leg forward
-    Wait for a short time
-
-    Return both legs to the standing angle
-    Wait for a short time
-
-END WHILE
-
-Return all servos to the standing angle
-
-END
-```
 
 ## Exploded View
 
