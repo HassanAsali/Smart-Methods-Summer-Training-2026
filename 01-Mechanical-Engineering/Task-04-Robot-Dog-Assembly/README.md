@@ -16,7 +16,7 @@ In this task I assembled a robot dog using Onshape
 
 The files were already given but every part was separated, so I had to insert the parts and connect them together
 
-After I finished the robot I made an exploded view to show the parts and where every part goes
+After I finished the robot I made an exploded view to show the parts and where every part goes.
 
 ## Parts Used
 
@@ -36,13 +36,13 @@ I started with the main body and fixed it so it will not move while I work
 
 The body was one part and it was easy to use, but the servo was different because every servo had many small parts
 
-At first when I tried to move the servo some parts moved alone and the servo separated. I used `Group` for all the parts of each servo and after that it moved like one part
+At first when I tried to move the servo some parts moved alone and the servo separated. I used `Group` for all the parts of each servo and after that it moved like one part.
 
 I added four servos inside the body and used `Fastened Mate` to put every servo in its corner
 
 Then I added the cover and the four legs. I used `Revolute Mate` for the legs because the legs need to rotate around the servo shaft
 
-After that I added the servo horns and all the screws
+After that I added the servo horns and all the screws.
 
 ## Mates Used
 
@@ -80,13 +80,13 @@ The legs can rotate forward and backward. The four servos need to move in the co
 
 9. When the robot stops return all the legs to the standing angle
 
-The exact servo angles can be changed after testing. Some servo directions may also need to be reversed because the servos are facing different sides
+The exact servo angles can be changed after testing. Some servo directions may also need to be reversed because the servos are facing different sides.
 
 ## Exploded View
 
 After finishing the assembly I created the exploded view
 
-I moved the cover, servos, legs, servo horns and screws away from the main body. I also kept the explode lines because they help to show where every part should be installed
+I moved the cover, servos, legs, servo horns and screws away from the main body. I also kept the explode lines because they help to show where every part should be installed.
 
 ## Onshape Link
 
